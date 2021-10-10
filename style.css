@@ -34,3 +34,30 @@ th {
 .blue {
   color: blue;
 }
+
+.incorrect {
+  background-color: rgb(255, 43, 43);
+  color: white;
+  padding: 5px;
+}
+.correct {
+  background-color: rgb(10, 141, 32);
+  color: white;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container div {
+  margin: 3px;
+  width: 40%;
+}
+.indicator {
+  position: fixed;
+  left: 5rem;
+  top: 43%;
+}
